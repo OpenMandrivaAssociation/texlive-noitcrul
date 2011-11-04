@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/noitcrul
+# catalog-date 2007-03-10 12:31:42 +0100
+# catalog-license lppl
+# catalog-version 0.2
 Name:		texlive-noitcrul
 Version:	0.2
 Release:	1
@@ -43,6 +49,7 @@ doesn't impose italics correction at the end.
 #- source
 %doc %{_texmfdistdir}/source/latex/noitcrul/noitcrul.dtx
 %doc %{_texmfdistdir}/source/latex/noitcrul/noitcrul.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ doesn't impose italics correction at the end.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
