@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-noitcrul
 Version:	0.2
-Release:	6
+Release:	7
 Summary:	Improved underlines in mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/noitcrul
