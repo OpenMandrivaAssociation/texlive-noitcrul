@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Improved underlines in mathematics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/noitcrul
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/noitcrul
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/noitcrul.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/noitcrul.doc.r%{version}.tar.xz
